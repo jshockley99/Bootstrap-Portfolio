@@ -80,10 +80,27 @@ footer {
 	border-top: #4aaaa5 solid 4px;
 	color: #FFFFFF;
 	text-align: center;
-	width: 100%;
-	clear: both;
-	position: fixed;
+/*	width: 100%;
+	position: absolute;
 	bottom: 0;
+*/}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 
 /* <-------------------Form Styles-------------------->*/
