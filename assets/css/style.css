@@ -1,134 +1,149 @@
 body {
-	color: #777777;
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url("../images/green-fibers.png");
-	background-repeat: repeat;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/green-fibers.png");
+    background-repeat: repeat;
 }
 
-h1, h2, h3 {
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	font-weight: bold;
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 
-h2,h3 {
-	color: #4aaaa5;
+h2,
+h3 {
+    color: #4aaaa5;
 }
 
 .navbar-brand {
-	padding: 5px 10px;
+    padding: 5px 10px;
 }
 
 #brand {
-	background: #4aaaa5;
-	color: #FFFFFF;
-	padding: 10px;
-	border-radius: 4px;
-	text-align: center;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	font-weight: bold;
+    background: #4aaaa5;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 
 #main {
-	background: #FFFFFF;
-	border: #dddddd solid 1px;
+    background: #FFFFFF;
+    border: #dddddd solid 1px;
 }
 
 #sidebar {
-	background: #FFFFFF;
-	border: #dddddd solid 1px;
-	text-align: center;
+    background: #FFFFFF;
+    border: #dddddd solid 1px;
+    text-align: center;
 }
 
 .pic-left {
-	padding: 0px 20px 20px 0px;
-	float: left;
-	position: relative;
+    padding: 0px 20px 20px 0px;
+    float: left;
+    position: relative;
 }
 
 .pic-right {
-	padding: 0px 20px 20px 0px;
-	float: right;
-	position: relative;
+    padding: 0px 20px 20px 0px;
+    float: right;
+    position: relative;
 }
 
-/*-----Why is "fit" white?-----------------*/
 .portfolio-picture {
-	width: fit-content;
-	margin: 10px auto;
-	position: relative;
-}
-
-/*-----Responsive images, not working-----------------*/
-img.portfolio-picture,img.pic-right,img.pic-left {
-	max-width: 100%;
-	height: auto; 
+    width: fit-content;
+    margin: 10px auto;
+    position: relative;
 }
 
 .portfolio-label {
-	background: #4aaaa5;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	width: 100%;
-	padding: 20px;
-	position: absolute;
-	bottom: 20px;
+    background: #4aaaa5;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.portfolio-label>a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.portfolio-label:hover {
+    text-decoration: none;
+    background-color: #B74F46;
 }
 
 footer {
-	background: #666666;
-	border-top: #4aaaa5 solid 4px;
-	color: #FFFFFF;
-	text-align: center;
+    background: #666666;
+    border-top: #4aaaa5 solid 4px;
+    color: #FFFFFF;
+    text-align: center;
 }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
+
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
 }
+
 
 /* <-------------------Form Styles-------------------->*/
 
 fieldset {
-	padding: 0 20px;	
+    padding: 0 20px;
 }
 
 label {
-	text-align: left;
-	display: block;
-	margin: 10px 0;
+    text-align: left;
+    display: block;
+    margin: 10px 0;
 }
 
 input {
-	width: 100%;
+    width: 100%;
 }
 
 textarea {
-	width: 100%;
+    width: 100%;
 }
 
 .button {
-	background: #4aaaa5;
-	color: #FFFFFF;
-	font-weight: bold;
-	text-align: center;
-	max-width: 200px;
-	height: 35px;
-	border-radius: 4px;
-	padding: 5px 10px;
-	margin: 20px;
-	border: none;
+    background: #4aaaa5;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    max-width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 20px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #B74F46;
 }
